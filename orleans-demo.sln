@@ -1,14 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orleans-api", "orleans-api\orleans-api.csproj", "{DED74F75-DE1C-4E47-8FF7-D9BAAA31F1C6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orleans-client", "orleans-client\orleans-client.csproj", "{81796002-7A6E-40EA-B0D0-3C64031DEA38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orleans-server", "orleans-server\orleans-server.csproj", "{6C9AFBC0-BDBD-4572-99A4-ECAB7DB91444}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{77CDF9BA-C7AD-4F76-B730-DA9A43104DD0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orleans-impl", "orleans-impl\orleans-impl.csproj", "{07FE25FA-46FF-419F-9D56-383CC7BA4E7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orleans-grains", "orleans-grains\orleans-grains.csproj", "{8E127420-2BD5-4639-8BBA-BD52F6849725}"
 EndProject
@@ -18,10 +12,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DED74F75-DE1C-4E47-8FF7-D9BAAA31F1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DED74F75-DE1C-4E47-8FF7-D9BAAA31F1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DED74F75-DE1C-4E47-8FF7-D9BAAA31F1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DED74F75-DE1C-4E47-8FF7-D9BAAA31F1C6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81796002-7A6E-40EA-B0D0-3C64031DEA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{81796002-7A6E-40EA-B0D0-3C64031DEA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81796002-7A6E-40EA-B0D0-3C64031DEA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,17 +20,11 @@ Global
 		{6C9AFBC0-BDBD-4572-99A4-ECAB7DB91444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9AFBC0-BDBD-4572-99A4-ECAB7DB91444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9AFBC0-BDBD-4572-99A4-ECAB7DB91444}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07FE25FA-46FF-419F-9D56-383CC7BA4E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07FE25FA-46FF-419F-9D56-383CC7BA4E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07FE25FA-46FF-419F-9D56-383CC7BA4E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07FE25FA-46FF-419F-9D56-383CC7BA4E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E127420-2BD5-4639-8BBA-BD52F6849725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E127420-2BD5-4639-8BBA-BD52F6849725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E127420-2BD5-4639-8BBA-BD52F6849725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E127420-2BD5-4639-8BBA-BD52F6849725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DED74F75-DE1C-4E47-8FF7-D9BAAA31F1C6} = {77CDF9BA-C7AD-4F76-B730-DA9A43104DD0}
-		{07FE25FA-46FF-419F-9D56-383CC7BA4E7F} = {77CDF9BA-C7AD-4F76-B730-DA9A43104DD0}
 	EndGlobalSection
 EndGlobal
